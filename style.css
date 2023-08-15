@@ -1,0 +1,314 @@
+:root {
+    --color1: #001219;
+    --color2: #005f73;
+    --color3: #3d9397;
+    --color4: #94d28d;
+    --color5: #e9d8a6;
+    --color6: #ee9800;
+    --color7: #ca6702;
+    --color8: #bb3e03;
+    --color9: #ae2012;
+    --color10: #9b2226;
+}
+
+
+generic site styles
+
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: montserrat;
+    background-color: #fcfdfd;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden !important;
+    box-sizing: border-box;
+}
+/* ===============================nav start========================== */
+nav{
+    background-color: #0082e6;
+    height: 80px;
+    width: 100vw;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+/* ----------------------------------header styling---------------------------------- */
+.header-1{
+    background-color: rgb(18, 18, 240);
+    color: white;
+}
+
+.navbar{
+    background-color: #d8dfd7;
+}
+a:hover{
+    color: #22dd09;
+}
+
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 700px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+    font-size: 20px;
+    }
+    a:hover{
+        color: #ca6702;
+    }
+    /* a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    } */
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+/* ===============================nav khatam========================= */
+/* =====================================header khatam=================================== */
+
+
+.div-1{
+    font-size: 1.5em;
+    padding-left: 3vw;
+    padding-top: 5vw;
+    background-color: #e8fce6;
+}
+
+/* ==============================================image styling================================ */
+
+.img-1{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+
+.img-2{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+
+.img-3{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+
+.img-4{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+
+.img-5{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+.img-6{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+.img-7{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+.img-8{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+.img-9{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+.img-10{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+.img-11{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+.img-12{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+.img-13{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+.img-14{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+.img-15{
+    text-align: center;
+    justify-content: center;
+    width: 90vw;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+
+/* =========================================img styling khatam====================================== */
+
+/* =========================================footer=========================================== */
+
+.div-2{
+    background-color: rgb(238, 233, 233);
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 3em;
+    text-align: center;
+    justify-content: center;
+
+}
+.footera{
+    padding: 0.8em;
+    color: white;
+    background-color: #0082e6;
+    border-radius: 0.3em;
+}
+
+.div-3{
+    background-color: #232525;
+
+}
+.div-4{
+    background-color: #1a1818;
+    color: white;
+    padding: 3vw 5vw 5vw 8vw;
+    font-size: 1em;
+}
+
+@media (min-width: 850px;){
+    .navbar{
+        display: flex;
+    }
+}
